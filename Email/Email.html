@@ -1,0 +1,15 @@
+<template>
+  <lightning-card>
+    <div class="slds-var-m-around_medium">
+        <div style="padding: 10px">
+          <lightning-input
+           class="slds-p-around_medium"
+            label="Email"
+            pattern="[A-Za-z0-9._-]+@[a-z0-9-]+\.[a-z]{2,}$"
+            message-when-pattern-mismatch="Please enter a valid email"
+            required
+         </lightning-input>
+      </div>
+    </div>
+  </lightning-card>
+</template>
